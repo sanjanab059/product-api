@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: product-api
+description: This api is used to get the product details
+
+/getproduct:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productname" : "clothes",
+                "productid" : 79797,
+                "message" : "fetched products"
+              }
