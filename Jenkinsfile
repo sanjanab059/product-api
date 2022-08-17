@@ -19,6 +19,7 @@ pipeline {
       }
     }
 
+
     stage('Deployment') {
       environment {
       	CLIENT_ID = credentials('DEV_CLIENT_ID')
